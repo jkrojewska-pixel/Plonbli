@@ -21,54 +21,7 @@ export default function PlonbliHomepage() {
       className="min-h-screen bg-[#F1F8E9] text-[#243126]"
       style={{ fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif" }}
     >
-      <header className="sticky top-0 z-30 border-b border-[#dbe8d0] bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-         <div className="flex items-center gap-5">
-  <div className="relative h-20 w-20 overflow-hidden rounded-2xl bg-[#E8F5E9] p-2 shadow-sm">
-    <Image
-      src="/plonbli-log3.png"
-      alt="Logo Plonbli"
-      fill
-      className="object-contain scale-140 -translate-y-1"
-      priority
-    />
-  </div>
 
-  <div>
-    <div
-      className="text-[2rem] font-extrabold leading-none text-[#2E7D32]"
-      style={{ fontFamily: "Nunito, Inter, ui-sans-serif, system-ui, sans-serif" }}
-    >
-      Plonbli
-    </div>
-    <div className="mt-1 text-sm font-medium text-[#5f735e]">
-      Plon blisko Ciebie
-    </div>
-  </div>
-</div>
-
-          <nav className="hidden items-center gap-8 text-[15px] font-semibold text-[#4f604f] md:flex">
-            <a href="#jak-to-dziala" className="transition hover:text-[#2E7D32]">
-              Jak to działa
-            </a>
-            <a href="#gospodarstwa" className="transition hover:text-[#2E7D32]">
-              Gospodarstwa
-            </a>
-            <a href="#o-plonbli" className="transition hover:text-[#2E7D32]">
-              O Plonbli
-            </a>
-          </nav>
-
-          <div className="flex items-center gap-3">
-            <Link
-              href="#gospodarstwa"
-              className="rounded-2xl bg-[#2E7D32] px-5 py-2.5 text-sm font-bold text-white shadow-md transition hover:opacity-95"
-            >
-              Zacznij kupować
-            </Link>
-          </div>
-        </div>
-      </header>
 
       <main>
         <section className="mx-auto grid max-w-7xl gap-10 px-6 py-12 lg:grid-cols-[1.05fr_0.95fr] lg:py-16">
