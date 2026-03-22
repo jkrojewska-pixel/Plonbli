@@ -24,6 +24,54 @@ export default function PlonbliHomepage() {
 
 
       <main>
+        <section className="border-b border-[#dbe8d0] bg-white">
+  <div className="mx-auto flex max-w-7xl flex-col gap-6 px-6 py-8 lg:flex-row lg:items-center lg:justify-between">
+    <div className="flex items-center gap-5">
+      <div className="relative h-24 w-24 overflow-hidden rounded-3xl bg-[#E8F5E9] p-2 shadow-sm">
+        <Image
+          src="/plonbli-log3.png"
+          alt="Logo Plonbli"
+          fill
+          className="object-contain scale-140 -translate-y-1"
+          priority
+        />
+      </div>
+
+      <div>
+        <div
+          className="text-[2.4rem] font-extrabold leading-none text-[#2E7D32]"
+          style={{ fontFamily: "Nunito, Inter, ui-sans-serif, system-ui, sans-serif" }}
+        >
+          Plonbli
+        </div>
+        <div className="mt-2 text-lg font-medium text-[#5f735e]">
+          Plon blisko Ciebie
+        </div>
+      </div>
+    </div>
+
+    <div className="flex flex-col gap-4 lg:items-end">
+      <nav className="hidden items-center gap-8 text-[15px] font-semibold text-[#4f604f] md:flex">
+        <a href="#jak-to-dziala" className="transition hover:text-[#2E7D32]">
+          Jak to działa
+        </a>
+        <a href="#gospodarstwa" className="transition hover:text-[#2E7D32]">
+          Gospodarstwa
+        </a>
+        <a href="#o-plonbli" className="transition hover:text-[#2E7D32]">
+          O Plonbli
+        </a>
+      </nav>
+
+      <Link
+        href="#gospodarstwa"
+        className="w-fit rounded-2xl bg-[#2E7D32] px-6 py-3 text-sm font-bold text-white shadow-md transition hover:opacity-95"
+      >
+        Zacznij kupować
+      </Link>
+    </div>
+  </div>
+</section>
         <section className="mx-auto grid max-w-7xl gap-10 px-6 py-12 lg:grid-cols-[1.05fr_0.95fr] lg:py-16">
           <div className="flex flex-col justify-start pt-6 lg:pt-10">
             <div className="mb-5 inline-flex w-fit items-center rounded-full bg-[#E6F2DE] px-4 py-2 text-sm font-semibold text-[#4F7A51] ring-1 ring-[#d8ead0]">
